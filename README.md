@@ -1,0 +1,1 @@
+This repo serves as a starting point for my TypeScript projects. It includes starting project structure, opinionated eslint rules based on airbnb's excellent eslint-config-airbnb-typescript as a starting point.
