@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        "composite": true,
+        "noEmit": true,
+        "baseUrl": "./src",
+        "rootDir": ".",
+        "outDir": "dist",
+        "strict": true,
+        "module": "ES2022",
+        "moduleResolution": "node",
+        "isolatedModules": true,
+        "target": "ES2022",
+        "lib": [
+            "ES2022"
+        ],
+        "sourceMap": false,
+        "inlineSourceMap": true,
+        "declaration": true,
+        "declarationMap": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "allowJs": true,
+        "checkJs": true,
+        "resolveJsonModule": true,
+        "importHelpers": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "paths": {},
+        "types": []
+    },
+    "include": [
+        "./src",
+        "./test"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ],
+    "$schema": "http://json.schemastore.org/tsconfig"
+}
