@@ -1,0 +1,36 @@
+{
+    "name": "chai-have-all-properties",
+    "version": "1.0.0",
+    "description": "Simplify schema validation. Instead of multiple expect(?).to.have.property(?), just do expect(?).to.have.properties(prop1, prop2, ...)",
+    "keywords": [
+        "chai",
+        "test",
+        "assertion",
+        "assert",
+        "testing"
+    ],
+    "license": "MIT",
+    "author": "dyhork <16787581+dyhork@users.noreply.github.com>",
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/dhorkin/chai-have-all-properties.git"
+    },
+    "bugs": {
+        "url": "https://github.com/dhorkin/chai-have-all-properties/issues"
+    },
+    "homepage": "https://github.com/dhorkin/chai-have-all-properties#readme",
+    "main": "src/index.ts",
+    "scripts": {
+        "test": "tsc && ts-mocha -p test/tsconfig.json test/**/*.spec.ts"
+    },
+    "devDependencies": {
+        "@types/chai": "^4.3.4",
+        "@types/deep-eql": "^4.0.0",
+        "@types/mocha": "^10.0.1",
+        "chai": "^4.3.7",
+        "mocha": "^10.2.0",
+        "ts-mocha": "^10.0.0",
+        "ts-node": "^10.9.1",
+        "typescript": "^4.9.5"
+    }
+}
