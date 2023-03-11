@@ -21,7 +21,7 @@
     "author": "dyhork <16787581+dyhork@users.noreply.github.com>",
     "main": "lib/propertiesAssertion.ts",
     "scripts": {
-        "check": "install-changed && lint-staged && npm run madge",
+        "check": "install-changed && npm test && lint-staged && npm run madge",
         "madge": "npx madge --circular --extensions js,ts --ts-config ./tsconfig.json ./lib",
         "prepare": "husky install",
         "test": "tsc && ts-mocha -p test/tsconfig.json test/**/*.spec.ts"
