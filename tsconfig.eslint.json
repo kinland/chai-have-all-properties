@@ -1,0 +1,17 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "rootDir": ".",
+        "allowJs": true,
+        "checkJs": true
+    },
+    "include": [
+        "./lib",
+        "./test",
+        ".eslintrc.cjs",
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
